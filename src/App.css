@@ -1,0 +1,64 @@
+body {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  background: url('./img/clouds.jpg');
+  height: auto;
+  padding: 30px;
+  min-height: 800px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  background-color: white;
+  width: 60%;
+  margin: auto;
+  box-shadow: 5px 5px 5px #333;
+  min-height: 300px;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Playfair display', serif;
+}
+
+.weather {
+  font-family:'Roboto Condensed', serif;
+}
+.weather-item {
+  letter-spacing: 1px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+.message {
+  margin-top: 40px;
+  font-size: 22px;
+}
+
+form {
+
+
+}
+
+input {
+  font-family:"Roboto", serif;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.submit {
+  background-color: #0618D8;
+  height: 28px;
+  width: 40%;
+  margin: auto;
+  margin-top: 10px;
+  color: white;
+  border-radius: 10px;
+  font-family:"Roboto", serif;
+  letter-spacing: 1px;
+  margin-left: 5px;
+}
