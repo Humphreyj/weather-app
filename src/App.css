@@ -62,3 +62,22 @@ input {
   letter-spacing: 1px;
   margin-left: 5px;
 }
+
+@media(max-width: 600px) {
+  input {
+    width: 60%;
+    margin-bottom: 5px;
+  }
+  .weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+  }
+
+  .submit {
+    height: auto;
+    width: auto;
+    margin: auto;
+    
+  }
+}
